@@ -5,45 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="NathanJoshua_2172026">
     <title>index</title>
-
 </head>
 <body align = "center">
-    <h3> Form Input</h3>
-<table border = "0" align = "center">
-<form action="jawbansoal1.php" Name ="Formisi"method = "POST" target="">
-   <tr>
-        <td align = "left">Nama </td>
-        <td>:</td>
-        <td><input type = "text" name = "nama" id="nama"></td>
-   </tr>
-   <tr>
-        <td align = "left">Email </td>
-        <td>:</td>
-        <td><input type = "text" name = "Email" id="Email"></td>
-   </tr>
-   <tr>
-        <td align = "left">Phone Number </td>
-        <td>:</td>
-        <td><input type = "text" name = "no" id="no"></td>
-   </tr>
-   <tr>
-        <td align = "left">Hobby  </td>
-        <td>:</td>
-        <td><input type = "text" name = "hobby" id="hobby"></td>
-   </tr>
-   <tr>
-        <td align = "left">Description </td>
-        <td>:</td>
-        <td align = "left"><textarea name = "desk" id = "desk"></textarea></td>
-   </tr>
-   <tr>
-        <td align = "left"> </td>
-        <td></td>
-        <td align = "left"><input type = "submit" value="submit"> <input type = "reset" value="reset"></td>
-   </tr>
-   
+    <table border ="3" align = "center" cellspacing = "0" >
+<form action = "jawabansoal2.php" method = "GET" target = "">
+    <tr>
+        <td colspan = "2" align = "center" bgcolor = "#DC143C">kalkulator</Td>
+        
+    </tr>
+    <tr>
+        <td bgcolor = "#FA8072">Angka pertama</Td>
+        <td><input type = "text" name = "a1" id = "a1"></Td>
+    </tr>
+    <tr>
+        <td bgcolor = "#FA8072">Angka kedua</Td>
+        <td><input type = "text" name = "a2" id = "a2"></Td>
+    </tr>
+    <tr>
+        <td bgcolor = "#FA8072">Operator</Td>
+        <td><input style = "text"  name = "op" id = "op">
+        </Td>
+    </tr>
+    <tr>
+       
+        <td colspan = "2" bgcolor = "#DC143C"><input type = "submit" value="submit"> <input type = "reset" value="reset"></Td>
+    </tr>
 </form>
-</table>
- 
+    </table>
 </body>
 </html>
